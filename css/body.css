@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.bg-black{
+	background-color: black;
+
+}
+.desc{
+	max-width: 400px;
+}
+
+.container{
+	scroll-behavior: smooth;
+}
+
+.button{
+	background-color: #ff7523;
+	border:none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size:18px;
+	transition: 0.3s;
+	font-weight: bold;
+}
+
+.text-off{
+	color: white;
+	font-size: : 600;
+	font-family: Georgia, serif;
+	position: relative;
+}
+.text-latin{
+	font-family: pacifico,cursive;
+	font-size: : 200;
+}
+.desc{
+	color: #ff7523;
+	max-width: 400px;
+}
+
+.gambar{
+	display: none;
+}
+.img{
+	width: 500px;
+	z-index: -1;
+	background-attachment: fixed;
+	
+}
+
+.cover {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cover video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 50%;
+  min-height: 50%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.cover .container {
+  position: relative;
+  z-index: 2;
+}
+
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+
+}
+
+/* spce */
+.space{
+	margin-bottom: 20px;
+}
+.space .img{
+	img: 5px;		
+}
+.space h4{
+	font-size: 45px;
+	font-weight: 200px;				
+}
+.space .btn{
+	border-radius: 200px;
+	text-transform: uppercase;				
+}
+
+
+/* footer */
+  .info-fotter{
+  	padding: 10px;
+  }
+
+  .info-fotter li{
+  	text-decoration: none;
+  }
+
+/* responsive */
+@media only  screen and (max-width: 600px){
+	.img{
+		display: none;
+		width: 500px;
+	}
+	.gambar{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.img{
+		display: none;
+		width: 500px;
+	}
+	.gambar{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 1199px){
+	.img{
+		
+		width: 500px;
+		z-index: -1;
+	
+	}
+	
+}
+
+@media only screen and( max-width: 992px){
+	.img{
+		
+		width: 500px;
+		
+	}
+	
+}
